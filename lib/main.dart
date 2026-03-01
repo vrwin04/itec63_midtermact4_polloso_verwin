@@ -28,11 +28,6 @@ class MyMidtermApp extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(
-              'assets/images/jeffrey.jpg',
-              height: 250,
-              fit: BoxFit.cover,
-            ),
             const SizedBox(height: 20),
             Container(
               margin: const EdgeInsets.all(10.0),
